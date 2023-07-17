@@ -16,11 +16,24 @@
             *em*, ex, rem, VW, Vh, %
             16px(tamanho natural letra) = 1em
             */
-            font-size: 1.2em;
+            font-size: 1em;
+         
+            /* lighter - normal - bold - bolder */
         
         }
-        h1, h2{
-            font-family: 'Times New Roman', Times, serif;
+        h1{
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'Work Sans', sans-serif;
         }
     </style>
 </head>
@@ -32,7 +45,7 @@
     a tenetur, fuga veniam vel blanditiis, obcaecati soluta quam expedita harum cupiditate!</p>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias ipsum, quo in repellendus veritatis esse ad,
     odit placeat enim nesciunt aperiam nemo reprehenderit quam maiores consequuntur eligendi praesentium atque corrupti.</p>
-    <h2>Subtitulo do exercicio</h2>
+    <h2>Subtítulo do exercicio</h2>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, perferendis repellat nihil tenetur odit doloremque
     quis obcaecati error quaerat fugiat non impedit recusandae enim deleniti! Ex esse qui debitis unde?</p>
 </body>
